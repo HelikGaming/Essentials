@@ -285,7 +285,7 @@ public class EssentialsSign
 
 	public static boolean isValidSign(final ISign sign)
 	{
-		return sign.getLine(0).matches("§1\\[.*\\]");
+		return sign.getLine(0).matches("§0\\[ §4.*\\ §0]");
 	}
 
 	protected boolean onBlockPlace(final Block block, final User player, final String username, final IEssentials ess) throws SignException, ChargeException
